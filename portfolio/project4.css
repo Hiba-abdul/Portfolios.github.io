@@ -1,0 +1,64 @@
+body{
+    background-image: url("./akeyodia-business-coaching-firm-gSDSkD0tIvo-unsplash.jpg");
+    background-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: none;
+    font-size: 3rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+button:hover {
+    opacity: 0.7;
+}
+#rock{
+    background-color: burlywood;
+}
+#paper{
+    background-color: lightblue;
+    padding: 15px;
+}
+#scissors{
+    background-color: burlywood;
+    padding: 20px;
+}
+#user-score{
+    color: darkblue;
+}
+#computer-score{
+    color: brown;
+}
+.note{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

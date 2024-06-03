@@ -1,0 +1,48 @@
+/* Reset styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: burlywood;
+}
+/* Navigation Bar */
+nav{
+    background: linear-gradient(lightblue, burlywood);
+    padding: 70px;
+    color: #333;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-transform: capitalize;
+    margin: auto;
+    word-spacing: 3pt;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Hero Section */
+.hero{
+    background-image: url('./andrey-k-iXK3ONov4sU-unsplash.jpg');
+    background-size: 99%;
+    padding: 100px;
+    text-align: justify;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Footer Section*/
+footer{
+    background: linear-gradient(burlywood, lightblue);
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}

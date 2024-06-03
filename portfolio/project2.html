@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weight Converter</title>
+        <link rel="stylesheet" href="./project2.css">
+    </head>
+    <body>
+        <section id="home" class="note">
+            <div class="note-content">
+                <p>A weight converter project that converts pounds to kilogram. This webpage features an
+                    input field where users enter a weight in pounds, and the webpage automatically displays
+                    the equivalent weight in kilograms
+                </p>
+            </div>
+        </section>        
+        <div class="container">
+            <h1 class="heading">WEIGHT CONVERTER</h1>
+            <div class="input-container">
+                <label for="pounds">Pounds:</label>
+                <input type="number" id="input" step="1" placeholder="Enter number"></inpu>
+            </div>
+            <p>Your weight in kg is: <span id="result"></span></p>
+            <p class="error" id="error"></p>
+        </div>
+        <script src="project2.js"></script>
+    </body>
+    </html>

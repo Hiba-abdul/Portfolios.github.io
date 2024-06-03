@@ -1,0 +1,64 @@
+/* Navigation Bar */
+nav {
+    background: linear-gradient(lightblue, burlywood);
+    padding: 30px;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    text-transform: capitalize;
+    margin: auto;
+    word-spacing: 3pt;
+    color: #333;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Contact Section*/
+.contact{
+    padding: 30px;
+    background: linear-gradient(burlywood, lightblue, burlywood);
+    margin-right: 100px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact-form{
+    max-width: 450px;
+    margin: 100 auto;
+}
+input, textarea, button{
+    display: grid;
+    width: 70%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+body{
+    background-image: url('./hutomo-abrianto-QVup6dgNWY8-unsplash.jpg');
+    background-size: 50%;
+}
